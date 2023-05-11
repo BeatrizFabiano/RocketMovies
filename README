@@ -1,0 +1,8 @@
+Para trabalhar com REACT vite instalar o setup com o comando
+--> "npm create vite@latest"
+seguir os passos da instalação e depois instalar o node modules com o comando:
+--> "npm install"
+rodar o servidor com:
+--> "npm run dev"
+Este projeto utiliza styled components, comando de instalação é:
+--> "npm install --save styled-components" ou "npm install styled-components@5.3.10"
