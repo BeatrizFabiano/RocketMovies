@@ -1,7 +1,6 @@
 /**Importar a biblioteca "css in js"*/
 import styled from "styled-components";
 
-/*___Armazenando dentro da constante "container" um elemento HTML que é uma "div" ou qualquer outro___*/
 export const Container = styled.div`
   width: 100%;
   height: 100vh;
@@ -45,12 +44,6 @@ export const Content = styled.div`
     align-content: center;
   }
 
-  > h1 {
-    font-size: 36px;
-    font-weight: 500;
-    padding-top: 64px;
-  }
-
   > p {
     font-size: 16px;
     margin-top: 16px;
@@ -59,4 +52,31 @@ export const Content = styled.div`
   }
 
 `;
+
+export const DateTime = styled.div`
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  margin-top: 24px;
+  
+  > h3 {
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  > img {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+  }
+
+  svg {
+    color: ${({ theme }) => theme.COLORS.PINK};
+    font-size: 24px;
+  }
+
+`;
+
+
 

@@ -1,11 +1,13 @@
-import { FiArrowLeft, FiClock, FiStar } from 'react-icons/fi';
-import { Container, Links, Content } from "./style"
+import { FiArrowLeft, FiClock } from 'react-icons/fi';
+import { AiFillStar, AiOutlineStar } from 'react-icons/ai';
+import { Container, Links, Content, DateTime } from "./style"
 
 import { Header } from "../../components/Header"
 import { Button } from "../../components/Button"
 import { Section } from "../../components/Section"
 import { Tag } from "../../components/Tag"
 import { ButtonText } from "../../components/ButtonText"
+import { MovieTitle } from "../../components/MovieTitle"
 
 export function Details() {
   return (
@@ -14,9 +16,18 @@ export function Details() {
       <main>
         <Content>
           <ButtonText title="Voltar" icon={FiArrowLeft} />
-          <h1>
-            Interestellar
-          </h1>
+
+          <MovieTitle title="Interestellar" icon={AiFillStar} />
+          <DateTime>
+            <img src="https://github.com/beatrizfabiano.png" alt="foto de perfil do usuário" />
+
+            <h3>Por Beatriz Fabiano</h3>
+            <FiClock />
+            <h3>16/05/2023 às 10:00</h3>
+
+          </DateTime>
+
+
           <p>
             Pragas nas colheitas fizeram a civilização humana regredir para uma sociedade agrária em futuro de data desconhecida. Cooper, ex-piloto da NASA, tem uma fazenda
             com sua família. Murphy, a filha de dez anos de Cooper, acredita que seu quarto está assombrado por um fantasma que tenta se comunicar com ela. Pai e filha
