@@ -24,9 +24,14 @@ export function Details() {
             <h3>Por Beatriz Fabiano</h3>
             <FiClock />
             <h3>16/05/2023 às 10:00</h3>
-
           </DateTime>
 
+          <Section>
+            <Tag title="Ficção Científica" />
+            <Tag title="Drama" />
+            <Tag title="Comédia" />
+
+          </Section>
 
           <p>
             Pragas nas colheitas fizeram a civilização humana regredir para uma sociedade agrária em futuro de data desconhecida. Cooper, ex-piloto da NASA, tem uma fazenda
@@ -45,20 +50,6 @@ export function Details() {
             Endurance, Cooper e Amelia descobrem que 23 anos se passaram.
 
           </p>
-
-          <Section title="Links úteis">
-            <Links>
-              <li><a href="#"> Link 1 </a></li>
-              <li><a href="#"> Link 2 </a></li>
-            </Links>
-          </Section>
-
-          <Section title="Marcadores">
-            <Tag title="express" />
-            <Tag title="Node.js" />
-          </Section>
-
-          <Button title="Voltar" />
         </Content>
       </main>
     </Container>

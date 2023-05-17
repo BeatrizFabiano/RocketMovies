@@ -13,7 +13,7 @@ export const Container = styled.div`
 
   > main {
     grid-area: content;
-    overflow-y: scroll;
+    overflow-y: auto;
     padding: 64px 0;
   }
 `;
@@ -60,7 +60,6 @@ export const DateTime = styled.div`
   margin-top: 24px;
   
   > h3 {
-    font-family: 'Roboto', serif;
     font-size: 16px;
     font-weight: 400;
   }
