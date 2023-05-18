@@ -53,5 +53,7 @@ export const Logo = styled.button`
   font-size: 24px;
   font-weight: 700;
   color: ${({ theme }) => theme.COLORS.PINK};
+
+  padding: 8px 20px 8px 0;
   
 `;

@@ -17,6 +17,28 @@ export const Container = styled.button`
     color: ${({ theme }) => theme.COLORS.WHITE};
   }
 
+  .stars {
+    display: flex;
+    gap: 5px;
+     margin: 9px 5px 16px 0;
+
+    color: ${({ theme }) => theme.COLORS.PINK};
+
+  }
+  
+  > p {
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    color: #999591;
+    text-align: justify;
+
+    overflow: hidden; /* remove o estouro do elemento */
+    text-overflow: ellipsis; /* adiciona “...” no final */
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* quantidade de linhas */
+    -webkit-box-orient: vertical; /* conteúdo será apresentado verticalmente */  
+  }
+
   > footer {
     width: 100%;
     display: flex;
