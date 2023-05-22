@@ -2,15 +2,15 @@ import styled from "styled-components";
 
 export const Container = styled.textarea`
   width: 100%;
-  height: 150px;
+  height: 274px;
 
-  background: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+  background: ${({ theme }) => theme.COLORS.BACKGROUND_800};
   color: ${({ theme }) => theme.COLORS.WHITE};
 
   border: none;
   resize: none;
 
-  margin-bottom: 8px;
+  margin: 40px 0 8px 0;
   border-radius: 10px;
   padding: 16px;
   
