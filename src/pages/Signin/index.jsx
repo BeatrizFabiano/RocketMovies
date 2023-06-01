@@ -2,23 +2,16 @@ import { Container, Form, Background } from './style';
 import { Input } from '../../components/Input';
 import { FiMail, FiLock, FiUser, FiArrowLeft } from 'react-icons/fi';
 import { Button } from '../../components/Button';
-import { ButtonText } from '../../components/ButtonText';
 
-
-export function Signup() {
+export function Signin() {
   return (
     <Container>
       <Form>
         <h1>RocketMovies</h1>
         <p>Aplicação para acompanhar tudo o que assiste</p>
 
-        <h2>Crie sua conta</h2>
+        <h2>Faça seu login</h2>
 
-        <Input
-          placeholder="Nome"
-          type="text"
-          icon={FiUser}
-        />
         <Input
           placeholder="Email"
           type="text"
@@ -30,14 +23,13 @@ export function Signup() {
           icon={FiLock}
         />
 
-        <Button title="Cadastrar" />
+        <Button title="Entrar" />
 
         <a href="#">
-          <FiArrowLeft /> Voltar para o login
+          Criar conta
         </a>
 
       </Form>
-
 
       <Background />
     </Container>
